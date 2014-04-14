@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 	
 	for(i=a;i<b;i=i++)
 	{
-		if((i+5==0)
+		if(i+5==0)
 		{
 			cout<<"la funzione è 0 in "<<i<<endl;
 		}
