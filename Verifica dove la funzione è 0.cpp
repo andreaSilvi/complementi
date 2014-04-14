@@ -27,7 +27,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-	//la funzione sarà y=(i*i)/2+i+4
+	//la funzione sarà y=i+5
 	double i,a,b;
 	
 	cout<<"inserisci l'intervallo: \nA=";
@@ -35,9 +35,9 @@ int main(int argc, char **argv)
 	cout<<"B=";
 	cin>>b;
 	
-	for(i=a;i<b;i=i+0.001)
+	for(i=a;i<b;i=i++)
 	{
-		if((i*i)/2+i+4==0)
+		if((i+5==0)
 		{
 			cout<<"la funzione è 0 in "<<i<<endl;
 		}
